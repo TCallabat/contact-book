@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+  <title>Contacts</title>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link type="text/css " rel="stylesheet" href="css/style.css" />
+</head>
+
+<body>
+  <h1>contact book</h1>
+
+  <form id="form_create">
+    <h2>Add new contact</h2>
+    <div class="form_create">
+      <label class="left_1" for="lastname">Lastname :</label>
+      <input class="right_1" type="text" name="lastname" id="lastname" required />
+    </div>
+    <div class="form_create">
+      <label class="left_1" for="firstname">Firstname :</label>
+      <input class="right_1" type="text" name="firstname" id="firstname" required />
+    </div>
+    <div class="form_create">
+      <label class="left_1" for="email">Email :</label>
+      <input class="right_1" type="email" name="email" id="email" required />
+    </div>
+    <div class="form_create">
+      <label class="left_1" for="phone">Phone :</label>
+      <input class="right_1" type="tel" name="phone" id="phone" required />
+    </div>
+    <div class="form_create">
+      <label class="left_2" for="status">Active :</label>
+      <input class="middle_1" type="radio" name="status" value="yes" />
+      <label class="middle_2">Yes</label>
+      <input class="middle_1" type="radio" name="status" value="no" />
+      <label class="middle_2">No</label>
+      <label class="left_2" for="type">Category :</label>
+      <select class="right_2" name="type">
+        <option value="personal">Personal</option>
+        <option value="professional">Professional</option>
+      </select>
+    </div>
+    <div class="form_create">
+      <button id="submit ">Create</button>
+    </div>
+  </form>
+
+  <div id="form_search">
+    <h2>Search</h2>
+    <div class="form_search">
+      <input type="email" id="search" onkeyup="myFunction()" name="email2" />
+    </div>
+  </div>
+
+  <div id="list">
+    <h2>list</h2>
+    <table id="table">
+      <tr class="header">
+        <th>Lastname</th>
+        <th>Firstname</th>
+        <th>Email</th>
+        <th>Phone</th>
+        <th>Active</th>
+        <th>Category</th>
+      </tr>
+    </table>
+  </div>
+
+  <!-- Scripts -->
+  <script type="text/javascript" src="script/jquery-3.4.1.min.js"></script>
+  <script type="text/javascript" src="script/script.js"></script>
+</body>
+
+</html>

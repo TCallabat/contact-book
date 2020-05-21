@@ -1,0 +1,119 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-size: 62.5%;
+}
+
+h1 {
+  margin: 1rem auto 0;
+  width: 60rem;
+  font-size: 3rem;
+  text-align: center;
+  text-transform: uppercase;
+  background-color: cadetblue;
+  border-radius: 1rem;
+}
+
+form,
+#form_search,
+#list {
+  margin: 1rem auto 0;
+  width: 60rem;
+}
+
+h2 {
+  font-size: 2rem;
+  font-style: italic;
+  text-align: center;
+  text-transform: uppercase;
+  border-bottom: 1px solid black;
+  border-radius: 1rem;
+  background-color: #e0e0e0;
+  margin-top: 1rem;
+}
+
+.form_create,
+.form_search {
+  margin: 0.2rem auto;
+  height: 1.5rem;
+  width: 40rem;
+  padding: 0;
+  display: flex;
+}
+
+.left_1 {
+  width: 10rem;
+  font-size: 1.25rem;
+  padding: 0 1rem;
+}
+
+.left_2 {
+  width: 10rem;
+  font-size: 1.25rem;
+  padding: 0 1rem;
+}
+
+.right_1 {
+  width: 30rem;
+  font-size: 1rem;
+  padding: 0 1rem;
+  border: 0;
+  background-color: #ebf6f9;
+}
+
+.right_2 {
+  width: 10rem;
+  font-size: 1rem;
+  padding: 0 1rem;
+  border: 0;
+}
+
+.middle_1 {
+  width: 1rem;
+}
+
+.middle_2 {
+  width: 4rem;
+  padding-left: 0.5rem;
+  font-size: 1rem;
+}
+
+.form_create button {
+  margin: 0 auto;
+  width: 10rem;
+}
+
+.form_search input {
+  width: 40rem;
+  font-size: 1rem;
+  padding: 0 1rem;
+  border: 0;
+  background-color: #ebf6f9;
+}
+
+.form_search button {
+  width: 10rem;
+}
+
+#list {
+  margin: 1rem auto 0;
+  width: 60rem;
+}
+
+table {
+  margin: 0.2rem auto;
+  font-size: 1rem;
+  width: 50rem;
+  border: 1px solid black;
+  border-collapse: collapse;
+}
+
+th,
+td {
+  padding: 0 0 0 0.5rem;
+  border: 1px solid black;
+}
